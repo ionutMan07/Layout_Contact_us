@@ -3,15 +3,37 @@ body, html{
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     max-width: 960px;
-    justify-content: center;
     align-items: center;
 }
 .contact{
-    display: flex;
     background-color: #eeeeee;
     height: 110px;
     margin: 10px auto;
     width: 100%;
-    justify-content: left;
-    align-items: center;
+
+}
+.contact h1{
+    display: inline-block;
+    margin-left: 150px;
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+.contact p{
+    display: inline-block;
+    color: #9ca0a7;
+    font-size: 1.4rem;
+    padding: 0 5px;
+}
+.container {
+    width: 430px;
+    height: 160px;
+    background-color: #f5f5f5;
+    margin: 10px auto;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.submit-button{
+    margin-right: 0 auto;
 }
