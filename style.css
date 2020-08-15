@@ -5,7 +5,7 @@ body, html{
     max-width: 960px;
     align-items: center;
 }
-
+/************** START HEADER******************/
 .contact{
     background-color: #eeeeee;
     height: 110px;
@@ -20,7 +20,7 @@ body, html{
     font-weight: 300;
     font-size: 2.2rem;
 }
-
+/******************* START FORM****************/
 .contact p{
     display: inline-block;
     color: #9ca0a7;
@@ -73,6 +73,7 @@ textarea{
     border-radius: 3px;
     border: none;
 }
+/**************** START SOCIAL MEDIA**********/
 h3{
     width: 30%;
     margin: 0 auto;
@@ -81,8 +82,8 @@ h3{
     font-size: 1.2rem;
     margin-bottom: 20px;
     border-bottom: 1px solid #e5e5e5;
-    
 }
+
 .social-media{
     text-align: center;
 }
